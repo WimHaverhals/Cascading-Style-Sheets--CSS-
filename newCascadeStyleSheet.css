@@ -1,0 +1,661 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 14, 2013, 4:10:52 PM
+    Author     : whaverhals
+*/
+tr.qwest_even{
+	background-color: #cccccc;
+}
+tr.qwest_selected{
+	background-color: #eac84d;
+}
+
+#config-header {
+    font-size: 18px;
+    float: right;
+    padding-bottom: 1px;
+}
+
+.page-tabs .new-line {
+    clear: left;
+}
+
+#pipeline-viewer-opener,
+.tab-content {
+    clear: both;
+}
+
+.tab-content {
+    position: relative;
+}
+
+.configuration-form,
+.selector-form {
+    margin: 10px;
+}
+
+.row {
+    clear: both;
+}
+
+.column {
+    float: left;
+    min-height: 1px;
+}
+
+.tab-header {
+    margin: 0 0 4px;
+}
+.group-header {
+    margin: 6px 0 4px;
+}
+.group-header span {
+    cursor: pointer;
+}
+.group-header img {
+    vertical-align: middle;
+    margin-right: 4px;
+}
+.group-description-toggle {
+    margin: 0 4px;
+    font-size: 0.6em;
+    vertical-align: middle;
+    color: #777;
+}
+.group-description {
+    margin: 0 2px;
+}
+.group-description.collapsed {
+    display: none;
+}
+.collapsed .group-inner {
+    display: none;
+}
+.attribute-inner {
+    padding: 4px 8px;
+}
+.attribute-label-container {
+    float: left;
+    position: relative;
+}
+
+.attribute-label {
+    padding-right: 4px;
+    line-height: 16px; /* TODO - depends on font size? */
+}
+
+.attribute-field-container {
+    float: left;
+    overflow: hidden;
+}
+
+.read-only .attribute-field-container {
+    line-height: 16px; /* TODO - depends on font size? */
+}
+
+.read-only-html {
+    overflow: auto;
+}
+.attribute-field {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.date-field .attribute-field {
+    width: 6em;
+}
+
+/* For checkbox/radio groups */
+.group-option {
+    margin-right: 8px;
+    display: inline-block;
+}
+.vertical .group-option {
+    display: block;
+}
+
+.attribute-help {
+    height: 16px;
+    width: 16px;
+    
+    position: relative;
+}
+
+.attribute-label-container .attribute-help {
+    position: absolute;
+    left: -20px;
+}
+
+.array .attribute-help {
+    float: left;
+}
+
+.attribute-help img {
+    width: 16px;
+    height: 16px;
+}
+
+.attribute-lock {
+    float: left;
+    width: 16px;
+    height: 16px;
+    background: url(/img/bmx/icons/fugue/lock_unlock.png) no-repeat center center;
+    padding: 0 2px;
+    
+    position: relative;
+}
+
+.attribute-lock.locked {
+    background: url(/img/bmx/icons/fugue/lock.png) no-repeat center center;
+}
+
+.attribute-image {
+    float: left;
+    cursor: pointer;
+    padding: 0 2px;
+    
+    position: relative;
+}
+
+/* When 'below label' */
+.attribute-label-container .attribute-image {
+    float: none;
+    display: block;
+}
+
+.attribute-price {
+    float: right;
+    line-height: 16px;
+    text-align: right;
+    min-height: 1px;
+    
+    position: relative;
+}
+
+.attribute-calculator {
+    float: right;
+    width: 16px;
+    height: 16px;
+    background: url(/img/bmx/icons/calculator.png) no-repeat center center;
+    padding: 0 2px;
+    
+    position: relative;
+}
+
+.messages:empty {
+    display: none;
+}
+
+.messages {
+    clear: both;
+    position: relative;
+}
+
+.group-inner > .messages,
+.tab-content > .messages {
+    background-color: #eaeaea;
+    margin: 8px; 
+    border: 1px solid #444;
+    padding: 8px 2px;
+    
+    -webkit-box-shadow: 0px 2px 5px rgba(0,0,0,.25);
+    box-shadow: 0px 2px 5px rgba(0,0,0,.25);
+}
+
+.tab-content > .messages {
+    margin: 4px;
+}
+
+.message {
+    border-left: 3px solid;
+    margin: 2px 4px;
+    padding: 4px 0 4px 10px;
+}
+
+.attribute-inner .message {
+    border: none;
+    padding: 4px 0;
+}
+
+.message label {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Arrays */
+
+.array-wrapper {
+    overflow: auto;
+    position: relative;
+    margin: 8px;
+}
+
+/* XXX-IE9fix: EXC-1596, EXC-2990 - IE9 makes array-wrapper grow on
+        any field change when the scroll bar is visible, so it gets wrapped to
+        add some additional css. */
+.array-wrapper-ie9fix {
+    margin: 8px;
+}
+.array-wrapper-ie9fix .array-wrapper {
+    display: inline-block;
+    margin: 0;
+    width: 100%;
+}
+/* End XXX-IE9fix */
+
+.array {
+    width: 100%;
+    border: 1px solid #999;
+    border-collapse: separate;
+}
+
+.array th {
+    font-weight: bold;
+    line-height: 16px;
+}
+
+.array thead th {
+    background-color: #dbefff;
+    border-color: #ddd;
+}
+
+.array td, .array th {
+    border: 1px solid #eaeaea;
+    border-width: 0 0 1px 1px;
+    background-color: #fff;
+    padding: 3px 6px;
+    vertical-align: middle;
+}
+
+.array .even td, .array .even th {
+    background-color: #f0fafd;
+}
+
+.array .attribute-field {
+    width: auto;
+}
+
+.array .messages td {
+    background-color: #fff8e5;
+    border-color: #aaa;
+    border-width: 0 0 1px 0;
+}
+
+.array .constrained-row td, .array .constrained-row th,
+.array .recommended-row td, .array .recommended-row th,
+.array .previous-value-row td, .array .previous-value-row th {
+    border-bottom-color: #aaa;
+}
+
+.array tr td.recommended,
+.array tr td.constrained,
+.array tr td.previous-value {
+    background-color: #fff8e5;
+    border: solid #aaa;
+    border-width: 3px 0 0 1px;
+}
+
+.array td.recommended + td,
+.array td.constrained + td,
+.array td.previous-value + td {
+    border-left: 1px solid #aaa;
+}
+
+.array th[scope=row],
+.vertical-array th {
+    text-align: left;
+}
+
+.vertical-array th[scope=row],
+.vertical-array .array-remove-cell {
+    width: 1px;
+}
+
+.array-add, 
+.array-remove {
+    text-indent: -9999px;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    background: transparent center center;
+}
+
+.horizontal-array .array-remove {
+    float: right;
+    margin-left: -16px;
+    opacity: 0;
+    
+    -webkit-transition: opacity 0.1s ease 0s;
+    -moz-transition: opacity 0.1s ease 0s;
+    transition: opacity 0.1s ease 0s;
+}
+
+.horizontal-array th:hover .array-remove {
+    opacity: 1;
+}
+
+.array tr.selected th,
+.array tr.selected td {
+    background-color: #FFFFCC;
+}
+
+/* XXX hack to make buttons look right */
+.button-text, .button-text:link, .button-text:visited {
+    position: relative;
+    top: -6px;
+}
+
+table.plain-button {
+    display: inline-table;
+}
+
+.bm-actionstrip {
+    padding: 3px 0 2px;
+}
+
+.bm-actionstrip.align-right {
+    text-align: right;
+}
+
+.bm-actionstrip.align-center {
+    text-align: center;
+}
+
+.bm-actionstrip.align-left {
+    text-align: left;
+}
+
+/* Image Menus */
+
+.cfg-image-menu {
+    position: relative;
+    display: inline-block;
+}
+
+.cfg-im-select {
+    display: none;
+}
+
+/* Sets the arrow for dropdowns */
+.cfg-image-menu .cfg-im-value-arrow {
+    background: transparent url(/img/bmx/icons/fugue/control_270.png) no-repeat center right;
+    padding-right: 16px;
+    cursor: pointer;
+    float: left;
+}
+
+/* Forces the value to to take up only the space it needs */
+.cfg-im-value {
+    float: left;
+}
+/* Allows multiple images to sit next to each other in the values section */
+.cfg-im-value .cfg-im-item {
+    float: left;
+}
+
+/* Defines the dropdown section of image dropdown menus */
+.cfg-ss-dropdown .cfg-im-grid,
+.cfg-ms-dropdown .cfg-im-grid,
+.cfg-im-dropdown-copy {
+    position: absolute;
+    left: 4px;
+    float: left;
+    clear: both;
+    padding: 10px 20px;
+}
+
+/* Defines attributes for the possible options common to both the dropdown and the grid styles */
+.cfg-im-grid {
+    overflow-y: auto;
+    overflow-x: hidden;
+    float: left;
+}
+
+.cfg-im-grid td {
+    vertical-align: top;
+}
+/* Attributes for all the possible options */
+.cfg-im-item {
+    text-align: center;
+    padding: 3px;
+    margin: 4px;
+    white-space: normal;
+}
+
+.cfg-image-menu .cfg-im-item,
+.cfg-im-dropdown-copy .cfg-im-item {
+    cursor: pointer;
+}
+
+.cfg-im-image  {
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+}
+
+/* Transparent mask to catch clicks that are not within the dropdown */
+.cfg-im-mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* Sticky actions */
+#sticky-actions {
+    position: relative;
+}
+
+#sticky-actions .floating {
+    background: #369 url(/img/gxt/glossy-top-bottom.png) repeat-x scroll 0 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+.plain-button:active .button-text {
+    vertical-align: text-bottom;
+    margin: 0 -1px 0 1px;
+}
+
+.date-field {
+    position: relative;
+    padding-right: 17px;
+}
+
+.date-trigger {
+    cursor: pointer;
+    background-image: url(/gwt/gxt/images/default/form/date-trigger.gif);
+    border-bottom: 1px solid #bbb;
+    position: absolute;
+    top: 0;
+    width: 17px;
+    height: 100%;
+    max-height: 25px;
+    
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.date-trigger:hover {
+    background-position: -17px 0;
+}
+
+.date-trigger:active {
+    background-position: -34px 0;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    
+    -webkit-transition: all 0.2s ease 0s;
+    -moz-transition: all 0.2s ease 0s;
+    transition: all 0.2s ease 0s;
+}
+
+.simple-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background-color: #fff;
+    border: 1px solid #777;
+    border-radius: 8px;
+    padding: 15px;
+    
+    -webkit-box-shadow: 8px 8px 18px rgba(0,0,0,.5);
+    box-shadow: 8px 8px 18px rgba(0,0,0,.5);
+    
+    -webkit-transition: opacity 0.2s ease 0s;
+    -moz-transition: opacity 0.2s ease 0s;
+    transition: opacity 0.2s ease 0s;
+}
+
+.group-description-popup {
+    max-width: 800px;
+    max-height: 600px;
+}
+
+.simple-popup .close {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    overflow: hidden;
+    height: 0px;
+    
+    -webkit-transition: height 0.2s ease 0s;
+    -moz-transition: height 0.2s ease 0s;
+    transition: height 0.2s ease 0s;
+}
+
+.simple-popup:hover .close {
+    height: 14px;
+}
+
+.help-popup,
+.pricebook-constraint {
+    position: absolute;
+    padding: 8px;
+    background-color: #ffc;
+    border: 1px solid #dda;
+    border-radius: 4px;
+    float: left;
+    max-width: 300px;
+    max-height: 200px;
+    overflow: auto;
+    opacity: 0;
+    
+    -webkit-box-shadow: 3px 3px 6px rgba(0,0,0,.5);
+    box-shadow: 3px 3px 6px rgba(0,0,0,.5);
+    
+    -webkit-transition: opacity 0.2s ease 0s;
+    -moz-transition: opacity 0.2s ease 0s;
+    transition: opacity 0.2s ease 0s;
+}
+
+.help-popup.loading {
+    background: url(/img/bmx/loading.gif) center center;
+}
+
+.tab-content .loading {
+    background: url(/img/bmx/loading.gif) no-repeat center 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#loading-dialog {
+    -webkit-box-shadow: 8px 8px 18px rgba(0,0,0,.5);
+    box-shadow: 8px 8px 18px rgba(0,0,0,.5);
+}
+
+.pricing-content td {
+    vertical-align: middle;
+    padding: 1px;
+}
+
+h2.other-pricing-content {
+    padding: 2px 3px;
+    margin: 6px 0;
+}
+
+.pricebook-selector.constrained {
+    border: 1px solid #FF0000;
+}
+
+.spare-grid th {
+    font-weight: bold;
+}
+
+#active-constraints .view-header {
+    padding: 2px 2px 4px;
+    margin: 8px 0 0;
+}
+
+#active-constraints .tab-constraint {
+    margin: 4px 2px;
+}
+#active-constraints .tab-name {
+    font-weight: bold;
+    color: #000;
+}
+.hidden {
+    display: none;
+}
+
+iframe.legacy-template {
+    width: 100%;
+}
+
+.items-table-content {
+    overflow: auto;
+}
+
+/* Remove Webkit spinner buttons */
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Layers (z-indexes) */
+.attribute-help,
+.attribute-lock,
+.attribute-image,
+.attribute-price,
+.attribute-calculator {z-index: 1;}
+
+.help-popup,
+.pricebook-constraint,
+.calendar {z-index: 2;}
+
+.cfg-im-mask {z-index: 10;}
+
+.cfg-ss-dropdown .cfg-im-grid,
+.cfg-ms-dropdown .cfg-im-grid,
+.cfg-im-dropdown-copy {z-index: 11;}
+
+.tab-content .loading {z-index: 20;}
+
+#sticky-actions,
+.overlay,
+.simple-popup {z-index: 999;}
