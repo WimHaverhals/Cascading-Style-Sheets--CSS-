@@ -287,8 +287,15 @@ td.button-middle, .plain-button td.button-middle {
     background: url("../../image/images/quote-button-right.png") no-repeat 0px 6px\0/ !important;
 
 }
-#sticky-actions table {margin-top:-5px\0/ !important; margin-right: -7px\0/ !important; }
 
+/* WJH */
+#sticky-actions table {
+    margin-right: 20px !important;
+}
+
+/*
+#sticky-actions table {margin-top:-5px\0/ !important; margin-right: -7px\0/ !important; }
+*/
 
 /*END - IF IE8 for Savvis - january 17, 2012 changes to buttons */
 
@@ -312,4 +319,3 @@ td.button-middle, .plain-button td.button-middle {
 
 
 /******** BUTTONS and BUTTON BAR - END *********/
-

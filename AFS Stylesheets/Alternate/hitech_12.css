@@ -1,0 +1,634 @@
+/* @override https://philips-cdemo.bigmachines.com/bmfsweb/philips-cdemo/config/style/hitech_12.css */
+
+/* @override https://sfdc-demo.bigmachines.com/bmfsweb/sfdc-demo/config/style/hitech_12.css */
+
+/* @override https://sfdc-demo.bigmachines.com/bmfsweb/sfdc-demo/config/style/new12config.css */
+
+#main-content table.view-header-table tbody tr.view-header td {
+	background-color: #007bbc;
+}
+
+a.view-header {
+	background-color: #007bbc;
+}
+
+.page-tabs.tab-strip {
+    padding: 0 0 0 0 !important;
+}
+.tab-strip .tab-text {
+    color: #ffffff !important;
+    font-size: 9.5pt !important;
+    line-height: 36px !important;
+    padding: 0px 0 0;
+}
+
+ul.tab-strip li {
+    border-left: 0px solid #666666 !important;
+    border-right: 0px solid #666666 !important;
+    float: left;
+    height: 36px !important;
+    margin-right: 0 !important;
+    white-space: nowrap;
+}
+.tab-strip .tab-active a.tab-left, .tab-strip .tab-active a.tab-left:hover {
+    background: #003f71 repeat-x scroll center top transparent !important;
+    margin-top: 0px  !important;
+}
+.tab-strip a.tab-left:hover .tab-text {
+	color:#FFF  !important;
+}
+.tab-strip .tab-active a.tab-left:hover .tab-text {
+	color:#FFF  !important;
+}
+.tab-strip .tab-active a.tab-left, .tab-strip .tab-active a.tab-left:hover {
+    margin-top: 0  !important;
+}
+.tab-strip a.tab-left:hover {
+	background: rgba(216, 216, 216, 0.9) url("https://sfdc-demo.bigmachines.com/bmfsweb/sfdc-demo/image/hitech/background-grad.png") !important;
+}
+#tab4851344: hover {
+	background: #757576 !important;
+}
+#tab4851344 li:hover {
+	background: #757576 !important;
+}
+#tab4851344.tab-active li {
+	background:  #757576 !important;
+}
+
+.tab-strip .tab-active a.tab-left, .tab-strip .tab-active a.tab-left:hover {
+    background: none !important;
+    margin-top: 0px;
+}
+.tab-strip .tab-active a.tab-left, .tab-strip .tab-active a.tab-left:hover {
+    background: #757576 url("https://sfdc-demo.bigmachines.com/bmfsweb/sfdc-demo/image/hitech/background-grad2.png")!important;
+    height: 36px !important;
+}
+.tab-strip .tab-active .tab-text {
+    font-size: 12pt;
+    padding: 0px 10px 0px 10px !important;
+}
+
+
+.tab-strip a.tab-left {
+    background: none repeat scroll 0 0 transparent;
+    border-radius: 0 0 0 0;
+    height: 36px;
+    line-height: 36px;
+
+}
+
+ul.page-tabs.tab-strip.clearfix {
+	background: url("https://sfdc-demo.bigmachines.com/bmfsweb/sfdc-demo/image/hitech/background-grad.png") repeat scroll 0 0 transparent !important;
+	box-shadow: 0 -10px 7px rgba(0, 0, 0, 0.13) inset !important;
+    border-radius: 0px 0px 0 0;
+    height: 36px;
+    line-height: 36px;
+}
+
+.page-tabs.tab-strip{
+	border-bottom:medium solid #DEDEDE !important;
+	box-shadow: 0 -10px 7px rgba(0, 0, 0, 0.13) inset !important;
+	height: 36px;
+}
+
+.tab-strip .tab-text {
+    color: #FFFFFF;
+    padding: 3px 0 0;
+}
+.tab-strip .tab-active a.tab-left .tab-text {
+    color: #FFFFFF;
+}
+
+.tab-strip .tab-active .tab-text {
+    font-size: 14px;
+    padding: 0 10px;
+}
+.tab-strip .tab-text {
+    color: #FFFFFF;
+    font-family: Tahoma;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    padding: 2px 0 4px;
+    text-decoration: none;
+}
+.tab-strip .tab-text {
+    color: #FFFFFF;
+    padding: 0 10px;
+}
+
+.tab-strip a.tab-left:hover .tab-text {
+	color: #ffffff;
+}
+.tab-strip .tab-active a.tab-left:hover .tab-text {
+	color: #ffffff;
+}
+.tab-strip a.tab-left {
+    background: url("https://sfdc-demo.bigmachines.com/bmfsweb/sfdc-demo/image/hitech/background-grad.png") repeat scroll 0 0 transparent !important;
+    border-radius: 0px 0px 0 0;
+    height: 36px;
+    line-height: 36px;
+	box-shadow: 0 -10px 7px rgba(0, 0, 0, 0.13) inset;
+}
+
+.tab-strip .tab-active a.tab-left {
+	background:rgba(216, 216, 216, 0.9) url("https://sfdc-demo.bigmachines.com/bmfsweb/sfdc-demo/image/hitech/background-grad2.png")!important;
+    margin-top: 0px;
+	box-shadow: 2px -2px 3px rgba(0, 0, 0, 0.22);
+}
+
+.tab-strip .tab-active a.tab-left:hover {
+    background:rgba(216, 216, 216, 0.9) url("https://sfdc-demo.bigmachines.com/bmfsweb/sfdc-demo/image/hitech/background-grad2.png") !important;
+    margin-top: 0px;
+}
+
+.tab-strip .tab-text {
+        color:#555555 !important;
+    padding: 0px 0 0;
+}
+
+.tab-strip .tab-active .tab-text {
+    font-size: 14px;
+    padding: 0 10px 0 10px;
+}
+.tab-strip .tab-text {
+    color: #FFFFFF;
+    font-family: Tahoma;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    padding: 2px 0 4px;
+    text-decoration: none;
+}
+.tab-strip .tab-text {
+    color: #FFFFFF;
+    padding: 0 10px 0 10px;
+}
+
+.tab-strip a.tab-left:hover .tab-text {
+	color: #ffffff;
+}
+.tab-strip .tab-active a.tab-left:hover .tab-text {
+	color:#7799b3 !important;
+}
+.tab-strip .tab-active a.tab-left, .tab-strip .tab-active a.tab-left:hover{
+	background: none;
+	margin-top: 0px;
+}
+.page-tabs.tab-strip {
+    border-bottom: none !important;
+	height:36px;
+}
+ul.tab-strip li {
+	border-right: 1px solid rgba(250, 250, 250, 0.3) !important;
+	border-left: none !important;
+}
+
+#_group_icon_configSummary_customize, #_group_icon_configSummary2_personalize, #_group_icon_configSummary3_accessorize {background:#b1d8e6;}
+.tab-strip .tab-active .tab-text {
+    color:#7799b3  !important;
+}
+.tab-strip .tab-active a.tab-left:hover .tab-text {
+    color:#7799b3  !important;
+}
+.tab-strip a.tab-left:hover .tab-text {
+	color:#7799b3  !important;
+}
+.page-tabs.tab-strip {
+    border-bottom: medium solid #DEDEDE !important;
+    height: 36px;
+	box-shadow: 0px -10px 7px rgba(0, 0, 0, 0.13) inset;
+}
+
+.tab-strip .tab-left {
+   background:none !important;    
+}
+
+.tab-strip .tab-right {
+   background:none !important; 
+}
+
+.tab-strip .tab-inner {
+   background:none !important; 
+}
+/* Tab Edits - Tony [end] */
+
+/* Hard Drive Inventory Table - Tony [start] */
+
+#invTable { 
+	border-collapse: collapse; 
+}
+ 
+#invTable td, #invTable th { 
+	padding: 4px 10px !important;
+	background-color:rgba(239,239,239,0.54); 
+}
+ 
+#invTable th { 
+	font-size: 11px !important; 
+    border: solid 1px #c7c7c7 !important;
+    border-bottom-width: 2px !important;
+    color: #003f71 !important;
+}
+ 
+#invTable td { 
+	border: #c7c7c7 solid 1px !important; 
+}
+
+#invDiv h2 {
+	background: none repeat scroll 0 0 #003f71;
+	background-image: -moz-linear-gradient(center top , rgba(255, 255, 255, 0.45) 0%, rgba(255, 255, 255, 0.2) 100%) !important;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.00,  rgba(255, 255, 255, 0.45)), color-stop(1.00, rgba(255, 255, 255, 0.2)));
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled='true', startColorstr=rgba(255, 255, 255, 0.45), endColorstr=rgba(255, 255, 255, 0.2), GradientType=1);
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.15) !important;
+    position: relative;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 35px;
+    padding-left: 10px;
+    color: #ffffff;
+    vertical-align:middle !important;
+    font-weight:normal;
+    margin-bottom: 0;
+}
+
+#group-5873013 h3.group-header {
+	display:none;	
+}
+
+div#hardDriveInventory.unreset.read-only-html {
+	margin-top:12px;
+}
+
+div#attribute-serverImage.attribute.read-only {
+	margin-left:40px;
+	margin-top:40px	
+}
+
+/* Hard Drive Inventory Table - Tony [end] */
+
+/* Price Break Table - Tony [start] */
+
+#priceBreaksHTML {
+	padding-left:150px;
+}
+
+
+#priceBreaks table{
+	width: 300px;
+	border: #c7c7c7 solid 1px !important; 
+}
+
+#priceBreaks h3 {
+	background: none repeat scroll 0 0 #bec0c0;
+	background-image: -moz-linear-gradient(center top , rgba(255, 255, 255, 0.45) 0%, rgba(255, 255, 255, 0.2) 100%) !important;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.00,  rgba(255, 255, 255, 0.45)), color-stop(1.00, rgba(255, 255, 255, 0.2)));
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled='true', startColorstr=rgba(255, 255, 255, 0.45), endColorstr=rgba(255, 255, 255, 0.2), GradientType=1);
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.15) !important;
+    position: relative;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    padding-left: 10px;
+    vertical-align:middle !important;
+    font-weight: normal;
+    margin-bottom: 0;
+    color: #ffffff;
+}
+
+#priceBreaks td {
+	padding: 4px 10px !important; 
+	background-color: #ffffff;
+}
+
+/* Price Break Table - Tony [end] */
+
+/* New Group Styling - Tony [start] */
+
+/*Dont display model Config at top*/
+#config-header {
+	display: none;
+}
+
+/*Set main content size [start]*/
+
+form.configuration-form {
+	width: 1150px !important;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+div.body-inner {
+	width: 1150px !important;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+body{
+	width: 1150px !important;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+
+/*Set main content size*/
+#main-table-wrapper {
+	width: 1150px !important;
+	margin-left:auto;
+	margin-right:auto;
+}
+/*Set main content size [end]*/
+
+
+/*hide top border of main content*/
+#tab-hardware-content, #tab-software-content, #tab-services-content {
+	border-top: none;
+}
+
+/* Group Icon placement*/
+img.group-icon {
+	margin-top:-5px;
+	margin-left:-8px;
+}
+
+#group-5872722 h3.group-header span img.group-icon {
+	margin-top:-15px;
+}
+
+.group-header span {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 35px;
+    padding-left: 10px;
+    color: #ffffff;
+    vertical-align:middle !important;
+}
+
+.group-header {
+	background: none repeat scroll 0 0 #007bbc;
+	background-image: -moz-linear-gradient(center top , rgba(255, 255, 255, 0.45) 0%, rgba(255, 255, 255, 0.2) 100%) !important;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.00,  rgba(255, 255, 255, 0.45)), color-stop(1.00, rgba(255, 255, 255, 0.2)));
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled='true', startColorstr=rgba(255, 255, 255, 0.45), endColorstr=rgba(255, 255, 255, 0.2), GradientType=1);
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.15) !important;
+    position: relative;
+}
+
+
+#group-5872383 h3.group-header, #group-5873013 h3.group-header {
+	background: none !important;
+	background-image:none !important;
+	box-shadow:none !important;	
+}
+
+
+.group-content {
+	border-left: thin solid #c7c7c7;
+	border-right: thin solid #c7c7c7;
+	border-bottom: thin solid #c7c7c7;
+}
+
+
+div#group-5872383.group-content, div#group-5873013.group-content {
+	border: none !important;
+
+}
+
+/*Hide header for server image */
+#group-5872383 h3.group-header {
+	display:none;
+}
+
+/*Sticky action bar*/
+div.bm-actionstrip.fixed, div.bm-actionstrip.floating {
+	background: none repeat scroll 0 0 #000000 !important;
+	background-image: -moz-linear-gradient(center top , rgba(255, 255, 255, 0.45) 0%, rgba(255, 255, 255, 0.2) 100%) !important;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.00,  rgba(255, 255, 255, 0.35)), color-stop(1.00, rgba(255, 255, 255, 0.1))) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled='true', startColorstr=rgba(255, 255, 255, 0.45), endColorstr=rgba(255, 255, 255, 0.2), GradientType=1) !important;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.15) !important;
+	width: 1150px !important;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#sticky-actions .grand-total-container{
+	font-size:18px !important;
+	padding: 8px 0px 8px 13px;	
+}
+
+#sticky-actions .floating{
+	left: inherit !important;	
+}
+
+.grand-total-container{
+	color: #ffffff;
+	font-size:18px !important;
+	padding-left: 20px !important;
+}
+
+.grand-total-container span{
+	color: #009e2f;
+}
+
+
+
+/* Rec Items [start]*/
+
+table.items-header.view-header {
+	background: none repeat scroll 0 0 #000000;
+	background: url("https://sfdc-demo.bigmachines.com/bmfsweb/sfdc-demo/image/hitech/background-grad.png") repeat scroll 0 0 transparent !important;
+	height: 36px !important;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.15) !important;
+    box-shadow: 0 -10px 7px rgba(0, 0, 0, 0.13) inset !important;
+	height: 36px;
+	border: none !important;
+}
+
+#pricing-table-wrapper {
+	/margin-top:-22px;
+	
+}
+
+div.items-header-wrapper.view-header.collapse-toggle.clearfix {
+	background-color: #007bbc !important;
+}
+
+td.grouping-heading.view-header {
+	color: #444444 !important;
+	font-weight:bold;
+	font-size:14px;
+}
+
+div.items-table-content.clearfix {
+	background-color:rgba(239,239,239,0.54);
+}
+
+#pricebreaks table{
+	background-color: #FFFFFF;
+}
+/* Rec Items [end]*/
+
+/* Help pop up settings*/
+.help-popup{
+	max-width: 1200px;
+	max-height: 500px;
+}
+.help-popup iframe{
+	max-width: 1200px;
+	max-height: 500px;
+}
+
+
+/* Hitech selector edits [start] */
+
+#selector-searchWizard div.body-inner p.help-text {
+	display:none;
+}
+
+#tab-legacyDefault-content h2.tab-header {
+	font-size: 18px;
+	padding-left:10px;	
+}
+
+#tab-legacyDefault-content span.tab-help.tab-help-top {
+	color: #444444;
+	padding-left:25px;
+}
+
+#group-5922494 div.group-inner {
+	background-color:rgba(239,239,239,0.54);	
+}
+
+/* Hitech selector edits [end] */
+
+
+/* FLow-specific button changes [start] */
+
+/* dO nOt EdIt !! */td.button-middle{padding:11px 10px 0px 10px !important;}/* dO nOt EdIt !! */
+
+
+/* update background image */
+.button-update td.button-middle .button-text{
+	background-image: url("https://sfdc-demo.bigmachines.com/bmfsweb/sfdc-demo/image/Icons/arrow_refresh.png");
+	background-repeat:no-repeat;
+	padding-left: 25px !important;
+}
+
+/* start over background image */
+.button-start-over td.button-middle .button-text{
+	background-image: url("https://sfdc-demo.bigmachines.com/bmfsweb/sfdc-demo/image/Icons/arrow_redo.png");
+	background-repeat:no-repeat;
+	padding-left: 25px !important;
+}
+
+/* create quote & add to quote background image */
+.button-invoke-create td.button-middle .button-text, .button-invoke-add td.button-middle .button-text{
+	background-image: url("https://sfdc-demo.bigmachines.com/bmfsweb/sfdc-demo/image/Icons/page_add.png");
+	background-repeat:no-repeat;
+	padding-left: 25px !important;
+}
+
+/* create quote & add to quote button color */
+.button-invoke-create td.button-middle, .button-invoke-add td.button-middle{
+	background-color: green;
+}
+#attribute-help iframe{
+ width: 800px;
+ height:600px;
+ }
+.attribute-help iframe{
+ width: 800px;
+ height:600px;
+ }
+/* Help pop up settings*/
+.attribute-help{
+	max-width: 1200px;
+	max-height: 500px;
+}
+/* FLow-specific button changes [end] */
+
+
+/*tables css*/
+
+.PLC table{
+	border: solid 1px #c7c7c7;
+}
+
+.PLC td{
+	padding: 4px 11px; border: solid 1px #efefef; 
+	1px #efefef; 
+}
+
+.PLC td{
+	border: solid 1px #c7c7c7; 
+	font-size:10pt; 
+	color:#333333;
+}
+
+.h1{
+	font-weight:bold; 
+	background-color:#C8F0BD;
+	background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.15);
+    position: relative;
+}
+.h2{
+	font-weight:bold; 
+	background-color:#5ECFFF; 
+	text-align:center;
+	background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.15);
+    position: relative;
+}
+.h3{
+	font-weight:bold; 
+	background-color:#fafa7f; 
+	text-align:center;
+	background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.15);
+    position: relative;
+}
+.h4{
+	background-color:#ffffff; 
+	text-align:center;
+}
+.h5{
+	background-color:#efefef; 
+	text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
